@@ -1,0 +1,4 @@
+dist/
+build/
+fluoride.egg-info/
+MANIFEST
