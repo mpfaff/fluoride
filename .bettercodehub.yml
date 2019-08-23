@@ -1,0 +1,11 @@
+component_depth: 1
+languages:
+- name: python
+  production:
+    include:
+      - fluoride/.*\.py
+    exclude:
+      - fluoride/.*__main__.py
+  test:
+    include:
+      - fluoride/.*__main__.py
