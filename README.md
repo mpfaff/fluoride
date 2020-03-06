@@ -1,6 +1,6 @@
 # Fluoride
 
-Fluoride is an in-development, unreleased app framework for Python 3 with first-class logging (not the package) support.
+Fluoride is a WIP logging framework for Python 3.
 
 ## Features
 
@@ -16,7 +16,7 @@ user@host:~$ pip3 install fluoride
 
 ## Usage
 
-The first App registered is used for the rerouting of `sys.stdout` and `sys.stderr`.
+The first `App` registered is used for the rerouting of `sys.stdout` and `sys.stderr`.
 
 ```python
 from fluoride import Level, App
